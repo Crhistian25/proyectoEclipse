@@ -104,7 +104,7 @@ public class Tienda extends JFrame {
 		jVender.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Vender vd = new Vender();
-				vd.setVisible(true);
+				vd.setVisible(false);
 			}
 		});
 		jVentas.add(jVender);
